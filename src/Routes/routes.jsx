@@ -1,5 +1,8 @@
 import { createBrowserRouter } from "react-router";
 import MainLayout from "../ui/MainLayout";
+import HomePage from "../pages/HomePage/HomePage";
+import TimeLine from "../pages/TimeLine/TimeLine";
+import Stats from "../pages/Stats/Stats";
 
 
 
@@ -13,11 +16,15 @@ element:<MainLayout/>,
 children:[
     {
         index:true,
-        element:<h1>Home</h1>
+        element:<HomePage/>
     },
     {
-        path:'about',
-        element:<h1>About</h1>
-    }]
+        path:'/timeline',
+        element:<TimeLine/>
+    },
+{
+    path:'/stats',
+    element:<Stats/>
+}]
 }]
 )

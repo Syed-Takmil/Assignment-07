@@ -11,8 +11,9 @@ const Footer = () => {
     return (
             
 
-            <footer className="footer grid gap-4 footer-horizontal footer-center bg-[#244D3F] text-white rounded py-15 px-10">
-                <img src={Logo} alt="Logo" srcset="" />
+//  <div className=' md:w-full w-fit '>
+               <footer className="footer   grid gap-4 footer-horizontal footer-center bg-[#244D3F] text-white rounded py-15 px-10">
+                <img className='max-w-[400px]' src={Logo} alt="Logo" />
 <p className='text-[16px] text-[#FFFF]/80'>
 Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
 </p>
@@ -36,6 +37,7 @@ Your personal shelf of meaningful connections. Browse, tend, and nurture the rel
 
   </aside>
 </footer>
+
        
     );
 };
