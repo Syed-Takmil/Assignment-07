@@ -3,6 +3,7 @@ import MainLayout from "../ui/MainLayout";
 import HomePage from "../pages/HomePage/HomePage";
 import TimeLine from "../pages/TimeLine/TimeLine";
 import Stats from "../pages/Stats/Stats";
+import ProfileDetails from "../pages/ProfileDetails";
 
 
 
@@ -25,6 +26,11 @@ children:[
 {
     path:'/stats',
     element:<Stats/>
+},
+{
+    path:'/profileDetails/:id',
+    element: <ProfileDetails/>,
+    loader:()=>fetch('/friends.json')
 }]
 }]
 )

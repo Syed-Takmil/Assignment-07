@@ -1,0 +1,122 @@
+[
+{
+"id": 1,
+"name": "Ayan Rahman",
+"picture": "https://randomuser.me/api/portraits/men/32.jpg",
+"email": "[ayan.rahman@gmail.com](mailto:ayan.rahman@gmail.com)",
+"days_since_contact": 18,
+"status": "overdue",
+"tags": ["college", "close friend"],
+"bio": "We studied CSE together at university. Used to code late nights and play FIFA.",
+"goal": 14,
+"next_due_date": "April 10,2026"
+},
+{
+"id": 2,
+"name": "Nusrat Jahan",
+"picture": "https://randomuser.me/api/portraits/women/44.jpg",
+"email": "[nusrat.jahan@yahoo.com](mailto:nusrat.jahan@yahoo.com)",
+"days_since_contact": 10,
+"status": "almost due",
+"tags": [ "debate club"],
+"bio": "Met in high school debate club. Still shares book recommendations.",
+"goal": 14,
+"next_due_date": "April 18,2026"
+},
+{
+"id": 3,
+"name": "Tanvir Hossain",
+"picture": "https://randomuser.me/api/portraits/men/76.jpg",
+"email": "[tanvir.dev@gmail.com](mailto:tanvir.dev@gmail.com)",
+"days_since_contact": 5,
+"status": "on-track",
+"tags": ["work"],
+"bio": "Worked together on a freelance React project. Great problem solver.",
+"goal": 14,
+"next_due_date": "April 25,2026"
+},
+{
+"id": 4,
+"name": "Farhana Akter",
+"picture": "https://randomuser.me/api/portraits/women/65.jpg",
+"email": "[farhana.akter@gmail.com](mailto:farhana.akter@gmail.com)",
+"days_since_contact": 20,
+"status": "overdue",
+"tags": ["family friend"],
+"bio": "Family friend since childhood. Always checks in during Eid.",
+"goal": 15,
+"next_due_date": "April 8,2026"
+},
+{
+"id": 5,
+"name": "Rafiul Karim",
+"picture": "https://randomuser.me/api/portraits/men/21.jpg",
+"email": "[rafiul.karim@outlook.com](mailto:rafiul.karim@outlook.com)",
+"days_since_contact": 12,
+"status": "almost due",
+"tags": ["gym"],
+"bio": "Gym partner. Motivates me to stay consistent with workouts.",
+"goal": 14,
+"next_due_date": "April 17,2026"
+},
+{
+"id": 6,
+"name": "Sadia Islam",
+"picture": "https://randomuser.me/api/portraits/women/12.jpg",
+"email": "[sadia.islam@gmail.com](mailto:sadia.islam@gmail.com)",
+"days_since_contact": 3,
+"status": "on-track",
+"tags": ["university"],
+"bio": "Worked together on multiple university group assignments.",
+"goal": 10,
+"next_due_date": "April 22,2026"
+},
+{
+"id": 7,
+"name": "Imran Chowdhury",
+"picture": "https://randomuser.me/api/portraits/men/54.jpg",
+"email": "[imran.chowdhury@gmail.com](mailto:imran.chowdhury@gmail.com)",
+"days_since_contact": 25,
+"status": "overdue",
+"tags": ["neighbor"],
+"bio": "Old neighbor. Used to play cricket every evening.",
+"goal": 14,
+"next_due_date": "April 12,2026"
+},
+{
+"id": 8,
+"name": "Mariam Sultana",
+"picture": "https://randomuser.me/api/portraits/women/33.jpg",
+"email": "[mariam.sultana@yahoo.com](mailto:mariam.sultana@yahoo.com)",
+"days_since_contact": 9,
+"status": "almost due",
+"tags": ["online friend", "design"],
+"bio": "Met through a UI/UX community. Shares design inspiration regularly.",
+"goal": 12,
+"next_due_date": "April 19,2026"
+},
+{
+"id": 9,
+"name": "Hasib Mahmud",
+"picture": "https://randomuser.me/api/portraits/men/88.jpg",
+"email": "[hasib.mahmud@gmail.com](mailto:hasib.mahmud@gmail.com)",
+"days_since_contact": 2,
+"status": "on-track",
+"tags": ["startup", "tech"],
+"bio": "Discuss startup ideas and tech trends frequently.",
+"goal": 7,
+"next_due_date": "April 20,2026"
+},
+{
+"id": 10,
+"name": "Jannat Ara",
+"picture": "https://randomuser.me/api/portraits/women/90.jpg",
+"email": "[jannat.ara@gmail.com](mailto:jannat.ara@gmail.com)",
+"days_since_contact": 16,
+"status": "overdue",
+"tags": ["school", "art"],
+"bio": "Loved drawing together back in school. Now she runs an art page.",
+"goal": 14,
+"next_due_date": "April 12,2026"
+}
+]

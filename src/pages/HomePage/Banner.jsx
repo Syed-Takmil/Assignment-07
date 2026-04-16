@@ -16,20 +16,20 @@ const Banner = () => {
 relationships that matter most.</p>
 <button className='btn bg-[#244D3F] text-white'> <Plus color="#ffffff" strokeWidth={2.25} /> Add Friend</button>
             {/* Stats Cards */}
-      <div className='grid grid-cols-2 mt-4 md:grid-cols-4 gap-2' >
+      <div className='grid grid-cols-2 mt-4 md:grid-cols-4 gap-8' >
           <div className="card rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
 <span className='text-[32px] font-semibold'>10</span>
 <span className='text-[18px] text-[#64748B]'>Total Friends</span>
         </div>
-        <div className="card rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
+        <div className="special-container rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
             <span className='text-[32px] font-semibold'> 3 </span>
                 <span className='text-[18px] text-[#64748B]'> On Track  </span>
         </div>
-        <div className="card rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
+        <div className="special-container rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
             <span className='text-[32px] font-semibold'> 6 </span>
                 <span className='text-[18px] text-[#64748B]'>  Need Attention </span>
         </div>
-        <div className="card rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
+        <div className="special-container rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
             <span className='text-[32px] font-semibold'>  12</span>
                 <span className='text-[18px] text-[#64748B]'> Interactions This Month</span>
         </div>
