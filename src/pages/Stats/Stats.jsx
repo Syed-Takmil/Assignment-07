@@ -7,9 +7,9 @@ const Stats = () => {
     const { callList, videoCallList, textList } = useContext(ProfileContext);
 
     const data = [
-        { name: "Call", length: callList.length, fill: 'green' },
-        { name: "VideoCall", length: videoCallList.length, fill: 'blue' },
-        { name: "Text", length: textList.length, fill: 'gray' }
+        { name: "Call", length: callList.length, fill: '#244D3F' },
+        { name: "VideoCall", length: videoCallList.length, fill: '#37A163 '},
+        { name: "Text", length: textList.length, fill: '#7E35E1' }
     ];
 
     const isEmpty = data.every(item => item.length === 0);
@@ -27,7 +27,7 @@ const Stats = () => {
                     <div className='bg-base-100 p-6 m-5 grid gap-5 rounded-2xl'>
                         <span className='font-bold text-xl mb-5'>By Interaction Type</span>
 
-                        <div className='flex justify-center'>
+                        <div className='grid justify-center justify-items-center gap-5'>
                             <PieChart width={300} height={300}>
                                 <Pie
                                  innerRadius="80%"
@@ -42,6 +42,18 @@ const Stats = () => {
                                     ))}
                                 </Pie>
                             </PieChart>
+                            <div className='flex gap-3'>
+                                <span className='flex items-center gap-1 text-[14px] text-[#64748B]'>
+                                    <div className="w-1.5 h-1.5 rounded-full border-6 border-[#7E35E1]"></div>
+                                    Text
+                                    </span>
+                                <span className='flex items-center gap-1 text-[14px] text-[#64748B]'>
+                                   <div className="w-1.5 h-1.5 rounded-full border-6 border-[#244D3F]"></div> 
+                                Call</span>
+                                <span className='flex items-center gap-1 text-[14px] text-[#64748B]'>
+                                    <div className="w-1.5 h-1.5 rounded-full border-6 border-[#37A163]"></div>
+                                    Video</span>
+                            </div>
                         </div>
                     </div>
                 )

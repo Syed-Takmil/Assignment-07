@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage/HomePage";
 import TimeLine from "../pages/TimeLine/TimeLine";
 import Stats from "../pages/Stats/Stats";
 import ProfileDetails from "../pages/ProfileDetails";
+import ErrorPage from "../pages/ErrorPage";
 
 
 
@@ -31,6 +32,9 @@ children:[
     path:'/profileDetails/:id',
     element: <ProfileDetails/>,
     loader:()=>fetch('/friends.json')
+},{
+    path:"*",
+    element:<ErrorPage/>
 }]
 }]
 )
