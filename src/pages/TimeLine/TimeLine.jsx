@@ -37,9 +37,9 @@ else{
             (interactionList?.length>0)?
         <div className='grid grid-cols-1 gap-5'>
             {
-                    interactionList.map(profile => (
+                    interactionList.map((profile,ind) => (
 
-                    <div key={profile.id} className='flex gap-7 rounded-xl bg-base-100 p-5 hover:-translate-y-1 transition-all duration-300 hover:border hover:border-gray-200'>
+                    <div key={ind} className='flex gap-7 rounded-xl bg-base-100 p-5 hover:-translate-y-1 transition-all duration-300 hover:border hover:border-gray-200'>
 <div className='rounded-full  p-1'>
     <img className='w-10 h-10' src={img(profile.type)}/>
 </div>
