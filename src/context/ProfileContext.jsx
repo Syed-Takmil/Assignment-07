@@ -13,7 +13,7 @@ const ProfileContextProvider = ({children}) => {
     const [videoCallList,setVideoCallList]=useState([]);
     const [textList,setTextList]=useState([]);
     const [interactionList,setInteractionList]=useState([]);
-    
+
     const HandleCall=(profile,time)=>{
         const data={
             name:profile
@@ -22,7 +22,10 @@ const ProfileContextProvider = ({children}) => {
         }
 setCallList([...callList,data]);
 setInteractionList([...interactionList,data]);
-toast(`Call scheduled with ${profile}  `)
+toast.success(`Call scheduled with ${profile}  `,{
+    position:"bottom-right",
+    theme:"dark"
+})
     }
     const HandleText=(profile,time)=>{
         const data={
@@ -32,7 +35,9 @@ toast(`Call scheduled with ${profile}  `)
         }
 setTextList([...textList,data]);
 setInteractionList([...interactionList,data]);
-toast(`Text scheduled with ${profile}  `)
+toast.info(`Text scheduled with ${profile}  `,{
+    position:"bottom-right"
+})
     }
     const HandleVideoCall=(profile,time)=>{
         const data={
@@ -42,7 +47,9 @@ toast(`Text scheduled with ${profile}  `)
         }
 setVideoCallList([...videoCallList,data]);
 setInteractionList([...interactionList,data]);
-toast.success(`Video Call scheduled with ${profile}  `)
+toast.success(`Video Call scheduled with ${profile}  `,{
+    position:"bottom-right"
+})
     }
 const data={
     callList,setCallList,
