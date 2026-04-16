@@ -2,11 +2,9 @@ import React from 'react';
 
 const ErrorPage = () => {
     return (
-        export default function ErrorPage() {
-  return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 to-slate-800 text-white">
       <div className="text-center p-10 bg-white/5 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/10 max-w-md w-full">
-        <div className="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-pink-500 mb-4">
+        <div className="text-7xl font-extrabold text-transparent bg-clip-text bg-linear-to-r from-red-400 to-pink-500 mb-4">
           404
         </div>
         <h1 className="text-2xl font-semibold mb-2">Page Not Found</h1>
@@ -32,7 +30,6 @@ const ErrorPage = () => {
   );
 }
 
-    );
-};
+
 
 export default ErrorPage;

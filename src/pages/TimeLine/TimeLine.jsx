@@ -23,7 +23,7 @@ else{
         
             <span className='text-3xl font-bold '>TimeLine</span>
 
-<button className="btn bg-base-200 w-fit " popoverTarget="popover-1" style={{ anchorName: "--anchor-1" } /* as React.CSSProperties */}>
+<button className="btn bg-base-200 gap-5 w-fit " popoverTarget="popover-1" style={{ anchorName: "--anchor-1" } /* as React.CSSProperties */}>
  Filter TimeLine <ChevronDown size={32} color="#808080" />
 </button>
 

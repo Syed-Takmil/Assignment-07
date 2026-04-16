@@ -4,9 +4,11 @@
 
 
 import { Plus } from 'lucide-react';
-import React from 'react';
+import React, { useContext } from 'react';
+import { ProfileContext } from '../../context/ProfileContext';
 
 const Banner = () => {
+    const {interactionList}=useContext(ProfileContext)
     return (
         <div className='w-full pt-15 pb-12 bg-base-300'>
 
@@ -30,7 +32,7 @@ relationships that matter most.</p>
                 <span className='text-[18px] text-[#64748B]'>  Need Attention </span>
         </div>
         <div className="special-container rounded-lg p-3 bg-base-100 grid justify-center items-center gap-1">
-            <span className='text-[32px] font-semibold'>  12</span>
+            <span className='text-[32px] font-semibold'>  {interactionList.length}</span>
                 <span className='text-[18px] text-[#64748B]'> Interactions This Month</span>
         </div>
       </div>
