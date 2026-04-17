@@ -15,7 +15,7 @@ fetch('friends.json')
             .then(response => response.json())
             .then(data => setProfiles(data));
               setloading(false)
-        },1000);
+        },500);
         
     },[])
     return (

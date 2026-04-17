@@ -13,7 +13,10 @@ const EachProfileDetails = ({profile}) => {
     const time=new Date().toLocaleDateString("en-US", {
   month: "long",
   day: "numeric",
-  year: "numeric"
+  year: "numeric",
+   hour: "numeric",
+  minute: "numeric",
+  second: "numeric"
 });
     const{HandleCall,HandleText,
     HandleVideoCall}=useContext(ProfileContext)
@@ -24,14 +27,14 @@ const EachProfileDetails = ({profile}) => {
             
             <div className='grid gap-4  ml-4 mt-6 justify-center justify-items-center items-center'>
                 <ProfileDetailsCard profile={profile}/>
-                <button className='bg-white rounded-lg p-5 btn w-full h-fit  flex '>
+                <button className='bg-white rounded-lg p-4 btn w-full h-fit  flex '>
                    <Bell color="#808080" strokeWidth={1.75} /> 
                    <span>Snooze 2 Weeks</span>
                     </button>
-                    <button className='bg-white rounded-lg p-5 btn w-full h-fit'>
+                    <button className='bg-white rounded-lg p-4 btn w-full h-fit'>
                     <Archive color="#808080" strokeWidth={1.75} />
                    <span>  Archive  </span> </button>
-                        <button className='bg-white rounded-lg p-5 btn w-full h-fit text-red-600'>
+                        <button className='bg-white rounded-lg p-4 btn w-full h-fit text-red-600'>
                             <Trash color="#ff1616" strokeWidth={1.75} />
                             <span> Delete</span></button>
             </div>
@@ -53,7 +56,7 @@ const EachProfileDetails = ({profile}) => {
                 </div>
                  </div>
 
-                 <div className='bg-white p-6  grid gap-2 font-semibold text-[20px] text-black '>
+                 <div className='bg-white p-4  grid gap-2 font-semibold text-[20px] text-black '>
                     <div className='flex  justify-between items-center '>
                         <span>RelationShip Goals</span>
                     <button className='btn btn-square '>Edit</button>
