@@ -15,12 +15,12 @@ const Stats = () => {
     const isEmpty = data.every(item => item.length === 0);
 
     return (
-        <div className='bg-base-200 p-15'>
-            <span className='font-bold text-xl'>Friendship Analytics</span>
+        <div className='bg-base-200 p-10 '>
+            <span className='font-bold text-3xl'>Friendship Analytics</span>
 
             {
                 isEmpty ? (
-                    <div className='font-bold text-xl m-5 bg-base-100 grid justify-center p-10 rounded-xl'>
+                    <div className='font-semibold text-xl m-5 mt-15 bg-base-100 grid justify-center p-10 rounded-xl'>
                         No Data Found
                     </div>
                 ) : (
@@ -58,6 +58,7 @@ const Stats = () => {
                     </div>
                 )
             }
+            
         </div>
     );
 };

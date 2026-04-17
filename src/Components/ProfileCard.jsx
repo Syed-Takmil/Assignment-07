@@ -9,7 +9,7 @@ const ProfileCard = ({profile}) => {
     const {name,picture,days_since_contact,status,tags} = profile;
     return (
         <NavLink to={`/profileDetails/${profile.id}`} className="w-full">
-            <div className=" w-[230px] bg-base-100 p-6 grid justify-items-center rounded-lg gap-3 shadow-xl">
+            <div className="  bg-base-100 p-5 grid justify-items-center rounded-lg gap-3 shadow-xl">
   <figure  className='flex justify-center items-center'>
     <img
     className='rounded-full object-cover w-24 h-24'

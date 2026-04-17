@@ -39,7 +39,7 @@ else{
             {
                     interactionList.map((profile,ind) => (
 
-                    <div key={ind} className='flex gap-7 rounded-xl bg-base-100 p-5 hover:-translate-y-1 transition-all duration-300 hover:border hover:border-gray-200'>
+                    <div key={ind} className='flex gap-7 rounded-xl bg-base-100 p-5 hover:-translate-y-1.5 transition-all hover:scale-102 duration-200 hover:border-2 hover:border-gray-200'>
 <div className='rounded-full  p-1'>
     <img className='w-10 h-10' src={img(profile.type)}/>
 </div>
@@ -51,7 +51,7 @@ else{
             ))
             }
         </div> :
-            <div className='text-[16px] text-gray-400 font-bold text-center mt-6 bg-base-100 p-10'>
+            <div className='text-[20px] text-gray-400 font-semibold text-center mt-4 bg-base-100 p-10'>
                 No TimeLine Set Yet
             </div>
            }
