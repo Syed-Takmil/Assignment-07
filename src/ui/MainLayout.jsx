@@ -11,7 +11,7 @@ import '../App.css'
 
 const MainLayout = () => {
     return (
-        <div className='page w-full  flex flex-col min-h-screen justify-between'>
+        <div className='w-fit lg:w-full'>
             <Navbar/>
             <main>
                 <Outlet/>

@@ -5,6 +5,7 @@
 import { useLoaderData, useParams } from 'react-router';
 import ProfileCard from '../Components/ProfileCard';
 import EachProfileDetails from '../Components/EachProfileDetails';
+import ProfileErrorPage from './TimeLine/ProfileErrorPage';
 
 const ProfileDetails = () => {
 const {id}=useParams();
@@ -19,7 +20,7 @@ const ExpectedProfile=Profiles.find(profile=>profile.id===Number(id));
           ExpectedProfile ? (
           <EachProfileDetails profile={ExpectedProfile}/>
           ) : (
-            <p>Profile not found</p>
+           <ProfileErrorPage/>
           )}
         </div>
     );

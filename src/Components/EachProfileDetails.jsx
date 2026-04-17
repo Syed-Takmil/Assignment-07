@@ -68,7 +68,7 @@ const EachProfileDetails = ({profile}) => {
                  </div>
                  <div className='bg-white p-5  grid gap-2 font-semibold text-[20px] text-black'>
                     Quick Check-In
-                    <div className='grid grid-cols-3 gap-4 font-semibold'>
+                    <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 font-semibold'>
                         <button onClick={()=>HandleCall(name,time)} className='bg-[#F8FAFC]  border-[#E9E9E9] justify-center items-center grid gap-5 p-5 rounded-lg '>
                             <PhoneCall color="#000000" size={35} />
                           <span>   Call</span>
@@ -79,7 +79,7 @@ const EachProfileDetails = ({profile}) => {
                             <button 
 onClick={()=>
     HandleVideoCall(name,time)}
-                            className='bg-[#F8FAFC] border-[#E9E9E9] justify-items-center justify-center items-center grid gap-5 p-5 rounded-lg '>
+                            className='bg-[#F8FAFC] border-[#E9E9E9] justify-items-center justify-center items-center grid  gap-5 p-5 rounded-lg '>
                                 <Video color="#000000" size={35} />
                                <span> Video</span></button>
                     </div>

@@ -47,11 +47,11 @@ else{
         
             <span className='text-3xl font-bold '>TimeLine</span>
 
-<div className='flex justify-between items-center'>
+<div className='flex justify-between gap-3 items-center'>
     <button className="btn bg-base-200 gap-5 w-fit " popoverTarget="popover-1" style={{ anchorName: "--anchor-1" } /* as React.CSSProperties */}>
  Filter TimeLine <ChevronDown size={32} color="#808080" />
 </button>
-<span className='flex justify-items-center items-center justify-center gap-2'>
+<span className='flex justify-items-center items-center justify-center gap-1'>
     <input 
 className='border rounded-lg p-3 bg-base-100' 
 type='text'
